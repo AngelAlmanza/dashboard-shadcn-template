@@ -6,7 +6,7 @@ import { Loading } from '@/core/components/Loading'
 import { RoutesWithNotFound } from '@/core/components/RoutesWithNotFound'
 import { PrivateRoutes, PublicRoutes } from '@/core/enums/routes'
 import { AuthGuard } from '@/core/guards/AuthGuard'
-import './App.css'
+import './index.css'
 
 const Login = lazy(() => import("@/modules/auth/pages/Login"));
 const Dashboard = lazy(() => import("@/modules/dashboard/pages/Dashboard"));

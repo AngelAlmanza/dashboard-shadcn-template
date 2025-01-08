@@ -1,6 +1,6 @@
 function Login() {
   return (
-    <div>Login</div>
+    <div className="text-2xl">Login</div>
   )
 }
 
