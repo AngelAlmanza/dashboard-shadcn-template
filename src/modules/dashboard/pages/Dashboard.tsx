@@ -1,6 +1,8 @@
+import { PrivateLayout } from "@/core/layouts/PrivateLayout"
+
 function Dashboard() {
   return (
-    <div>Dashboard</div>
+    <PrivateLayout>Dashboard</PrivateLayout>
   )
 }
 
