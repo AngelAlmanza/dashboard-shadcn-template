@@ -1,6 +1,10 @@
+import { Button } from "@/core/components/ui/button"
+
 function Login() {
   return (
-    <div className="text-2xl">Login</div>
+    <div>
+      <Button>Login</Button>
+    </div>
   )
 }
 
